@@ -1,4 +1,4 @@
-﻿# AJK　草刈り機のROSパッケージ  
+﻿# i-Cart eduをmove_baseで自律走行  
 
 ## 必要環境  
 ROS kineticのインストール
@@ -6,7 +6,7 @@ ROS kineticのインストール
 
 
 ## 必要な機器  
-icart  
+i-Cart edu 
 北陽のLiDAR  
   
 
