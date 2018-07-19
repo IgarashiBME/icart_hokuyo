@@ -6,13 +6,23 @@ ROS kineticのインストール
 
 
 ## 必要な機器  
-i-Cart edu 
+i-Cart edu  
 北陽のLiDAR  
   
 
 
 ## インストール  
-ROSのワークスペースにこのパッケージをダウンロードする。  
+下記のコマンドによりROSのワークスペースにこのパッケージをダウンロードする。  
+cd catkin_ws/src
+git clone https://github.com/IgarashiBME/icart_hokuyo  
+  
+関連パッケージを下記のコマンドでインストールする。  
+sudo apt update  
+sudo apt install ros-kinetic-slam-gmapping  
+sudo apt install ros-kinetic-urg-node  
+sudo apt install ros-kinetic-map-server ros-kinetic-move-base  
+sudo apt install ros-kinetic-amcl ros-kinetic-dwa-local-planner  
+sudo apt install ros-kinetic-navigation  
   
 
 
