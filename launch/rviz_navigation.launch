@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="rviz" type="rviz" args="-d '$(find icart_hokuyo)/config/rviz/navigation_sho.rviz'" name="visualizer" respawn="true" />
+</launch>
