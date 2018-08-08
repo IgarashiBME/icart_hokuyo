@@ -19,7 +19,7 @@
             L_C1       0.01000000 #
             L_K1     800.00000000 #
             L_K2     300.00000000 #
-            L_K3     200.00000000 #
+            L_K3     400.00000000 #
           L_DIST       0.60000000 #
 
          GAIN_KP      10.0 # PI control parameter Kp
@@ -27,7 +27,7 @@
       TORQUE_MAX       0.05 #[Nm]
       TORQUE_LIMIT     0.4 #[Nm]
    TORQUE_NEWTON       0.002 #[Nm]
-   TORQUE_VISCOS       0.00001 #[Nm/(count/1ms)]
+   TORQUE_VISCOS       0.0002 #[Nm/(count/1ms)]
     INTEGRAL_MAX       0.1 #[rev]
 
    TORQUE_OFFSET       0.00000000 #[Nm]
