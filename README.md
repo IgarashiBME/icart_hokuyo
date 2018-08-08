@@ -13,11 +13,13 @@ i-Cart edu
 
 ## インストール  
 下記のコマンドによりROSのワークスペースにこのパッケージをダウンロードする。  
-cd catkin_ws/src
+cd catkin_ws/src  
 git clone https://github.com/IgarashiBME/icart_hokuyo  
   
 関連パッケージを下記のコマンドでインストールする。  
 sudo apt update  
+sudo apt install ros-kinetic-ypspur  
+sudo apt install ros-kinetic-ypspur-ros  
 sudo apt install ros-kinetic-slam-gmapping  
 sudo apt install ros-kinetic-urg-node  
 sudo apt install ros-kinetic-map-server ros-kinetic-move-base  
