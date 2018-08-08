@@ -1,6 +1,6 @@
 <launch>
 	<arg name="port_robot" default="/dev/serial/by-id/usb-T-frog_project_T-frog_Driver-if00" />
-	<arg name="robot_param" default="$(find icart_hokuyo)/params/labme.param" />
+	<arg name="robot_param" default="$(find icart_hokuyo)/params/icart.param" />
 	<arg name="map_file" default="/home/$(env USER)/maps/map.yaml" />
 	
 	<node pkg="tf" type="static_transform_publisher" name="stp_laser" args="0 0 0 0 0 0 base_link laser 100" />
